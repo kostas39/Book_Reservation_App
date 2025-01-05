@@ -1,0 +1,25 @@
+[
+  {"bookName":"Wheel of Time",
+    "bookImage":"https://images.macmillan.com/folio-assets/macmillan_us_frontbookcovers_1000H/9780765376862.jpg",
+    "bookAuthors":"Robert Jordan",
+    "bookPublisher":"Tor Books (Macmillan)"
+  },
+
+  {"bookName":"Lord of the Rings",
+    "bookImage":"https://www.bibdsl.co.uk/imagegallery/bookdata/cd427/9780261103252.JPG",
+    "bookAuthors":"J. R. R. Tolkien",
+    "bookPublisher":"Allen & Unwin"
+  },
+
+  {"bookName":"Harry Potter Series",
+    "bookImage":"https://i2.wp.com/geekdad.com/wp-content/uploads/2013/02/HP1-Kibuishi.jpg",
+    "bookAuthors":"J. K. Rowling",
+    "bookPublisher":"Bloomsbury"
+  },
+
+  {"bookName":"A song of Ice and Fire",
+    "bookImage":"https://upload.wikimedia.org/wikipedia/en/d/dc/A_Song_of_Ice_and_Fire_book_collection_box_set_cover.jpg",
+    "bookAuthors":"George R. R. Martin",
+    "bookPublisher":"Bantam & Voyager Books"
+  }
+]

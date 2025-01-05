@@ -1,0 +1,69 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- Book Image -->
+        <ImageView
+            android:id="@+id/bookImage"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Book Details -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <!-- Book Title -->
+            <TextView
+                android:id="@+id/bookTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Book Author -->
+            <TextView
+                android:id="@+id/bookAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Book Publisher -->
+            <TextView
+                android:id="@+id/bookPublisher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/gray" />
+        </LinearLayout>
+
+        <!-- Reserve Button -->
+        <Button
+            android:id="@+id/reserveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reserve Book"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_500"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

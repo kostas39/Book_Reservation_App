@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "363389838435",
+    "project_id": "bookreservationapp-82386",
+    "storage_bucket": "bookreservationapp-82386.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363389838435:android:5de5e09042daca3d340456",
+        "android_client_info": {
+          "package_name": "com.example.book_reservation_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWmqdEBM1PPmNhek2Au6adTh4xBdSxSIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
